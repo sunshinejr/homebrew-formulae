@@ -3,7 +3,7 @@ class Pouch < Formula
   homepage "https://github.com/sunshinejr/Pouch"
   version "0.1.2"
   url "https://github.com/sunshinejr/Pouch/archive/#{version}.tar.gz"
-  sha256 "28212e66545bfbe7bc5aa8f6e1f13f5a365b0a43bd2c98a1366eb6f3cb9b0126"
+  sha256 "6ce02fe34c78994f79a297b0854908505353748fab57308a22220e61fd900683"
   head "https://github.com/sunshinejr/Pouch.git"
 
   depends_on :xcode => ["12", :build]
