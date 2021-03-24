@@ -1,0 +1,13 @@
+
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  tap:
+    runs-on: macOS-latest
+
+    steps:
+    - run: brew tap ${{ github.repository }}
