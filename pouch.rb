@@ -1,9 +1,9 @@
 class Pouch < Formula
   desc "Secret management for Swift projects"
   homepage "https://github.com/sunshinejr/Pouch"
-  version "0.2.0"
+  version "0.4.0"
   url "https://github.com/sunshinejr/Pouch/archive/#{version}.tar.gz"
-  sha256 "f0dad64da6587f120b10261ae19bf99bddd2953022134c08d4308f79f15d385c"
+  sha256 "bd3add31977555d0308af6385f64f38280c29c9e110e0117f36eedc3f6ca97ea"
   head "https://github.com/sunshinejr/Pouch.git"
 
   depends_on :xcode => ["12", :build]
